@@ -62,10 +62,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Game.cs" />
     <Compile Include="Assets\Scripts\Global.cs" />
-    <Compile Include="Assets\Scripts\kociemba\Kociemba.cs" />
     <Compile Include="Assets\Scripts\Rubik.cs" />
+    <Compile Include="Assets\Scripts\RubikSolver\Jaap.cs" />
+    <Compile Include="Assets\Scripts\RubikSolver\Kociemba.cs" />
     <Compile Include="Assets\Scripts\SceneSwitcher.cs" />
     <None Include="Assets\Resources\Shaders\Rubiks.shader" />
+    <None Include="Assets\Scripts\RubikSolver\jaap_src\readme.txt" />
+    <None Include="Assets\Scripts\RubikSolver\jaap_src\cubecompo.cpp.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>H:/GitProjects/RubiksCube/UnityRubiks/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

@@ -9,6 +9,8 @@ public class Game : MonoBehaviour
     [ContextMenu("Create Rubik")]
     void CreateRubik()
     {
-        new Rubik(null, cubeOrder);
+        //new Rubik(null, cubeOrder);
+        var result = RubikSolver.Jaap.GetResult("RU LF UB DR DL BL UL FU BD RF BR FD LDF LBD FUL RFD UFR RDB UBL RBU");
+        Debug.LogWarning(result);
     }
 }
