@@ -9,7 +9,7 @@ namespace RubikSolver
      * Websites
      * https://tomas.rokicki.com/cubecontest/winners.html
      * https://blog.csdn.net/WilliamYuYuYu/article/details/79256121
-	 * http://www.diy-robots.com
+     * http://www.diy-robots.com/?p=282
      * 
      * Describe
      * This program solves the cube using Thistlethwaite's four stage algorithm.
