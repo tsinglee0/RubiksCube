@@ -261,6 +261,13 @@ namespace RubikSolver
 
         /// <summary>
         /// Get Rubik Resolve String
+        /// 国际魔方标准色为 : 上黄－下白，前蓝－后绿，左橙－右红
+        /// 表示被解好的魔方 : UF UR UB UL DF DR DB DL FR FL BR BL UFR URB UBL ULF DRF DFL DLB DBR
+        /// 表示被打乱的魔方 : 按照解好魔方的遍历顺序，
+        ///                    1.先找到UF位置所对应的棱，假设现在U是红色，F是黄色；
+        ///                      那么对照中心块表示的方向，红色的中心是R，黄色的中心是U，
+        ///                      所以这时候的第一组棱字母是 RU
+        ///                    2.按1的方式依此找对应UR UB UL ...位置的颜色字母表示
         /// </summary>
         /// <param name="sInput">RU LF UB DR DL BL UL FU BD RF BR FD LDF LBD FUL RFD UFR RDB UBL RBU</param>
         /// <returns></returns>
